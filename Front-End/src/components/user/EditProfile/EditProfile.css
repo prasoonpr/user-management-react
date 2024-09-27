@@ -1,0 +1,112 @@
+/* Container for the edit profile form */
+.edit-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Profile form styling */
+  .edit-profile-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* Title of the edit profile form */
+  .edit-profile-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form group styles (label and input together) */
+  .edit-profile-form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  /* Label for the form fields */
+  .edit-profile-label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Input field styling */
+  .edit-profile-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .edit-profile-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* File input for profile image */
+  .edit-profile-file-input {
+    margin-top: 10px;
+  }
+
+  /* Image preview styling */
+  .edit-profile-image-preview {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .edit-profile-image {
+    max-width: 150px;
+    max-height: 150px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+  }
+  
+  /* Buttons container for layout */
+  .edit-profile-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Save changes button styling */
+  .edit-profile-save-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .edit-profile-save-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Back button styling */
+  .edit-profile-back-btn {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .edit-profile-back-btn:hover {
+    background-color: #5a6268;
+  }
+  

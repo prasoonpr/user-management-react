@@ -1,0 +1,85 @@
+/* General styling for the body */
+.bodye {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main container */
+  .container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Profile card styling */
+  .profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Profile photo section */
+  .profile-photo {
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  /* Username styling */
+  .username {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Button styling */
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Edit button styling */
+  .edit-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Logout button styling */
+  .logout-btn {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .logout-btn:hover {
+    background-color: #cc0000;
+  }
+  

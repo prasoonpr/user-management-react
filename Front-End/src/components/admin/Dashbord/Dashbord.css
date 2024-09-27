@@ -1,0 +1,152 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+/* NAV BAR */
+.dashboard-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.dashboard-logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.dashboard-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.dashboard-perfil {
+    position: relative;
+    color: white;
+}
+
+.dashboard-perfil img {
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dashboard-desplegable {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dashboard-perfil:hover .dashboard-desplegable {
+    display: block;
+}
+
+.dashboard-logout-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* CONTENT */
+.dashboard-contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dashboard-contenido-principal {
+    background-color: white;
+    margin: 30px auto;
+    padding: 0 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.dashboard-usuarios-barra {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-add-user-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dashboard-busqueda-barra {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.dashboard-search-input {
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+    background-color: #ddd;
+    width: 100%;
+}
+
+.dashboard-search-btn {
+    background-color: #333;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/* TABLE */
+.dashboard-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.dashboard-edit-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dashboard-delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dashboard-delete-btn:hover {
+    background-color: white;
+    color: red;
+}
+
+.dashboard-edit-btn:hover {
+    background-color: white;
+    color: blue;
+}
